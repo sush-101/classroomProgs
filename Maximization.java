@@ -18,7 +18,7 @@ Output a single integer denoting the maximum number of chocolate Bharat can coll
 
 
 Sample Input:
-    5
+     5
     1 2 3 4 5
     1 2 3 4 5
     1 2 3 4 5
