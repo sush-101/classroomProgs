@@ -1,5 +1,4 @@
-/*/*
-
+/*
 Roy is the owner of a flower plant farm and sells flower plants for a living.
 Now the problem with flower plants is that they wither in a night if not taken care of. 
 So at the end of the day, to make flower plants wither-resistant Roy uses special fertilizers.
