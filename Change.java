@@ -45,3 +45,30 @@ class Change{
     }
     
 }
+import java.util.*;
+class Change{
+    public static void main (String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt(),arr[] = new int[n],max = 0,i=0;
+        for(i=0;i<n;i++)arr[i] = scanner.nextInt();
+        int fc=0,sc=0,temp=0;
+        i=0;
+        while(i<n){
+            while(i<n && arr[i]==0){i++;}
+            while(i<n && arr[i]==1){
+                fc++;i++;
+            }
+            if(i<n)
+            fc++;
+            temp = fc+sc;
+            if(i<n-1 && arr[i+1]==1){
+                sc = fc;
+            }
+            else sc = 0;
+            fc = 0;
+            max = Math.max(max,temp);
+        }
+        System.out.println(max);
+    }
+    
+}
